@@ -774,6 +774,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-slate-950 {
+  --tw-gradient-from: #020617 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(2 6 23 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-sky-300 {
   --tw-gradient-to: #7dd3fc var(--tw-gradient-to-position);
 }
@@ -788,6 +794,10 @@ video {
 
 .to-slate-950 {
   --tw-gradient-to: #020617 var(--tw-gradient-to-position);
+}
+
+.to-black {
+  --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
