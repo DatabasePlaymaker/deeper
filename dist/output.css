@@ -780,6 +780,10 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.to-black {
+  --tw-gradient-to: #000 var(--tw-gradient-to-position);
+}
+
 .to-sky-300 {
   --tw-gradient-to: #7dd3fc var(--tw-gradient-to-position);
 }
@@ -794,10 +798,6 @@ video {
 
 .to-slate-950 {
   --tw-gradient-to: #020617 var(--tw-gradient-to-position);
-}
-
-.to-black {
-  --tw-gradient-to: #000 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
